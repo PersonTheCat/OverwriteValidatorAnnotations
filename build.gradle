@@ -1,1 +1,4 @@
 apply plugin: 'java'
+
+group = "personthecat"
+version = "1.0"
