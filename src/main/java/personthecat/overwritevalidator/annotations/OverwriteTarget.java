@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
  * </p>
  */
 @Target(ElementType.TYPE)
-@Retention(RetentionPolicy.RUNTIME)
+@Retention(RetentionPolicy.SOURCE)
 @SuppressWarnings("unused")
 public @interface OverwriteTarget {
     boolean required() default false;
